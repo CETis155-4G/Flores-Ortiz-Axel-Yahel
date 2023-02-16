@@ -1,18 +1,45 @@
 h1{
-    color: red;
+    color: red;  /*Color del titulo*/
+}
+
+h1{
+    margin: 0%; /*Definimos el tamaño del margen que tendra estas etiquetas*/
+    width: 500px;  /*Definimos el tamaño la etiqueta*/
 }
 
 p{
-    font-size: 20px;
-    font-style: Arial Black ;
+    margin: 0.3%; /*Definimos el tamaño del margen que tendra estas etiquetas*/
+    font-size: 20px; /*Tamaño de la letra de los parrafos*/
+    font-style: Arial Black ; /*Estilo y color de la letra de los parrafos*/
 }
 
 h2{
-    color: blue;
+    color: blue; /*Color del titulo*/
+}
+
+#imghtml{
+    margin-right: 250px; /*Definimos el tamaño del margen derecho que tendra estas etiquetas*/
+    width: 230px; /*Definimos el tamaño la etiqueta*/
+}
+
+.txthtml , .ttlhtml, .txtcss, .ttlcss{
+    margin-left: 0.10%; /*Definimos el tamaño del margen izquiedo que tendra estas etiquetas*/
+    width: 700px; /*Definimos el tamaño la etiqueta*/
+    margin: 0.5%; /*Definimos el tamaño del margen que tendra estas etiquetas*/
+   
+}
+
+.tablahtml{
+    margin: 0.3%; /*Definimos el tamaño del margen que tendra estas etiquetas*/
 }
 
 
+#txtgithub,#ttlgithub{
+    margin-left: 0.10%; /*Definimos el tamaño del margen izquiedo que tendra estas etiquetas*/
+    width: 700px; /*Definimos el tamaño la etiqueta*/
+    margin: 0.5%; /*Definimos el tamaño del margen que tendra estas etiquetas*/
+}
 
 img{
-    width: 250px;
+    width: 250px; /*Definimos el tamaño de la imagen*/
 }
