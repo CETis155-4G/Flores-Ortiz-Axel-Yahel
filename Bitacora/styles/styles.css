@@ -7,8 +7,10 @@ h1{
     width: 500px;  /*Definimos el tamaño la etiqueta*/
 }
 
+
 p{
-    margin: 0.3%; /*Definimos el tamaño del margen que tendra estas etiquetas*/
+    margin-left: 1.2%;/*Definimos el tamaño del margen izquierdo que tendra estas etiquetas*/
+    margin-right: 1.2%; /*Definimos el tamaño del margen derecho que tendra estas etiquetas*/
     font-size: 20px; /*Tamaño de la letra de los parrafos*/
     font-style: Arial Black ; /*Estilo y color de la letra de los parrafos*/
 }
@@ -23,11 +25,13 @@ h2{
 }
 
 .txthtml , .ttlhtml, .txtcss, .ttlcss{
-    margin-left: 0.10%; /*Definimos el tamaño del margen izquiedo que tendra estas etiquetas*/
+    margin-left: 1%; /*Definimos el tamaño del margen izquiedo que tendra estas etiquetas*/
+    margin-right: 1%;
     width: 700px; /*Definimos el tamaño la etiqueta*/
-    margin: 0.5%; /*Definimos el tamaño del margen que tendra estas etiquetas*/
+    
    
 }
+
 
 .tablahtml{
     margin: 0.3%; /*Definimos el tamaño del margen que tendra estas etiquetas*/
@@ -42,4 +46,19 @@ h2{
 
 img{
     width: 250px; /*Definimos el tamaño de la imagen*/
+}
+
+.fecha{
+    margin-right: 2.7%;
+}
+
+.evolucionCss{
+    margin-left: 1%; /*Definimos el tamaño del margen izquiedo que tendra estas etiquetas*/
+    margin-right: 1%;
+    width: 700px; /*Definimos el tamaño la etiqueta*/
+}
+
+.imgevol{
+    margin-right: 120px; /*Definimos el tamaño del margen derecho que tendra estas etiquetas*/
+    width: 380px; /*Definimos el tamaño la etiqueta*/
 }
