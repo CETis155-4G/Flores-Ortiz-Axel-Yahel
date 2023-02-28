@@ -15,9 +15,6 @@ p{
     font-style: Arial Black ; /*Estilo y color de la letra de los parrafos*/
 }
 
-h2{
-    color: blue; /*Color del titulo*/
-}
 
 #imghtml{
     margin-right: 250px; /*Definimos el tamaño del margen derecho que tendra estas etiquetas*/
@@ -26,17 +23,14 @@ h2{
 
 .txthtml , .ttlhtml, .txtcss, .ttlcss{
     margin-left: 1%; /*Definimos el tamaño del margen izquiedo que tendra estas etiquetas*/
-    margin-right: 1%;
+    margin-right: 1%; /*Definimos el tamaño del margen derecho que tendra estas etiquetas*/
     width: 700px; /*Definimos el tamaño la etiqueta*/
-    
-   
-}
 
+}
 
 .tablahtml{
     margin: 0.3%; /*Definimos el tamaño del margen que tendra estas etiquetas*/
 }
-
 
 #txtgithub,#ttlgithub{
     margin-left: 0.10%; /*Definimos el tamaño del margen izquiedo que tendra estas etiquetas*/
@@ -49,7 +43,7 @@ img{
 }
 
 .fecha{
-    margin-right: 2.7%;
+    margin-right: 2.7%; /*Definimos el tamaño del margen derecho que tendra estas etiquetas*/
 }
 
 .evolucionCss{
@@ -61,4 +55,30 @@ img{
 .imgevol{
     margin-right: 120px; /*Definimos el tamaño del margen derecho que tendra estas etiquetas*/
     width: 380px; /*Definimos el tamaño la etiqueta*/
+}
+
+
+body button{
+    display: block; /*Situa el elemento*/
+    margin: auto;   /*Tipo de margen*/
+    margin-top: 25px; /*Definimos el tamaño del margen de arriba del boton*/
+    color: #9a9494; /*Color del boton*/
+    margin-bottom: 25px; /*Definimos el tamaño del margen de abajo del boton*/
+    height: 40px; /*Altura del boton*/
+    width: 10%; /*Tamaño del boton*/
+    background: transparent; /*Color de fondo fel boton*/
+    border-radius: 1px; /*tamaño del borde*/
+    cursor: pointer; /*Indicacion*/
+    border: 1px solid #bdbbbb; /*Como se vera el borde*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Fuente de letra del boton*/
+    border-top-right-radius: 10px; /*Tamaño de redondeo de la esquina superior derecha*/
+    border-bottom-left-radius: 10px; /*Tamaño de redondeo de la esquina inferior izquierda*/
+    border-bottom-right-radius: 10px; /*Tamaño de redondeo de la esquina inferior derecha*/
+    border-top-left-radius: 10px; /*Tamaño de redondeo de la esquina superior izquierda*/
+ 
+}
+
+body button:hover{
+    transition: .5s; /*Animacion de transicion*/
+    border: 2px solid rgb(105, 94, 174); /*CAmbio de color al poner el cursor sobre el*/
 }
