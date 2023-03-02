@@ -1,0 +1,247 @@
+/*Inicio*/
+
+body{ /*Estilo para el cuerpo de la pagina**/
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h2{ 
+    color: #706f6f
+}
+
+a{
+    color: #706f6f;
+    text-decoration: none;
+}
+
+header{ /*Estilo para el encabezado donde se encuetra las opciones de pag**/
+    display: flex;
+    height: 70px;
+    background-color: #acb4df;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 35px;
+}
+
+nav a:hover{
+    transition: .5s;
+    color:  rgb(67, 56, 134);
+}
+
+/*Menu*/
+
+/*Informacion*/
+.info{
+    margin-left: 20px;
+}
+
+/*Hamburguesa y hotdog*/
+#prod{
+    border-radius: 15px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-style:  solid;
+    margin-left: 20px;
+    width: 400px;
+}
+
+/*Hamburguesa*/
+.menu{
+    width: 165px;
+}
+
+/*Hotdog*/
+.menuhot{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+    width: 130px;
+}
+
+
+/*Sincronizada*/
+#prod2{
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: 440px;
+    margin-top: 20px;
+}
+
+/*Sincronizada*/
+.menu2{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 160px;
+    margin-right: 10px;
+}
+
+
+/*Torta*/
+#prod1{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 400px;
+    margin-top: -571.01px;
+    margin-left: 440px;
+    border-style: solid;
+
+}
+
+/*Torta*/
+.menu1{
+    margin-left: 220px;
+    margin-top: -387px;
+    width: 165px;
+}
+
+/*Tacos*/
+#prod3{
+    background-color: #fff;
+    border-style: solid;
+    margin-left: 440px;
+    margin-top: 21px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+/*Tacos*/
+.menu3{
+    margin-left: 220px;
+    margin-top: -193px;
+    width: 150px;
+}
+
+
+/*Burritos*/
+#prod4{
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: 860px;
+    margin-top: 20px;
+}
+
+/*Burritos*/
+.menu4{
+    margin-top: 40px;
+    width: 155px;
+    margin-right: 10px;
+}
+
+/*Pizza*/
+
+#prod5{
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: 860px;
+    margin-top: -571.01px;
+}
+
+/*Pizza*/
+.menu5{
+    width: 150px;
+    margin-top: -520px;
+    margin-left: 890px;
+}
+
+/*Galleta*/
+#prod6{
+    background-color: #fff;
+    border-style: solid;
+    width: 400px;
+    margin-left: 860px;
+    margin-top: 21px;
+    border-radius: 15px;
+}
+
+/*Galleta*/
+.menu6{
+    width: 150px;
+    margin-right: 5px;
+    margin-top: -324px;
+}
+
+/*Agua*/
+#prod7{
+    background-color: #fff;
+    border-style: solid;
+    width: 390px;
+    margin-left: 440px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+/*Agua*/
+.menu7{
+    width: 60px;
+    margin-top: -120px;
+    margin-right: 50px;
+}
+
+.menu8{
+    width: 140px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+/*Arizona*/
+#prod9{
+    background-color: #fff;
+    border-style: solid;
+    margin-left: 440px;
+    margin-top: -177.01px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+/*Arizona*/
+.menu9{
+    margin-left: 220px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+/*Concha*/
+#prod10{
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: 860px;
+    margin-top: -177.01px;
+}
+
+/*Concha*/
+.menu10{
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 120px;
+}
+
+.menu11{
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 120px;
+}
