@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> <!--Titulo-->
+            Recuperar
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css"> <!--Conexion css-->
+    </head>
+
+    <body background="imagenes/fondo.jpg">
+
+        <form> <!--Formulario-->
+        
+            <div class="recuperar">
+
+                <h1> <!--Titulo-->
+                    Recover Password
+                </h1>
+
+                <input 
+                type="text" 
+                placeholder="Telefono"> <!--Pide el telefono-->
+
+                <input 
+                type="email" 
+                placeholder="Email"> <!--Pide el email-->
+
+                <input 
+                type="text" 
+                placeholder="Usuario"> <!--Pide el usuario-->
+
+                <button> <!--Boton-->
+
+                    <a href="login.php">
+                        Recuperar
+                    </a> 
+
+                </button>   
+                
+            </div>
+
+        </form>
+
+    </body>
+
+</html>
